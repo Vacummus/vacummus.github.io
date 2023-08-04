@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d5a5421.css",
-    "main.js": "/static/js/main.7ea7cfd0.js",
+    "main.css": "/static/css/main.b90eeae9.css",
+    "main.js": "/static/js/main.1ce0b409.js",
     "static/js/787.16283a0a.chunk.js": "/static/js/787.16283a0a.chunk.js",
     "static/media/shader-4.gif": "/static/media/shader-4.0337d3f6efbf7cef71aa.gif",
     "static/media/particle-1.gif": "/static/media/particle-1.be3764ac6986b02a73a6.gif",
@@ -15,12 +15,12 @@
     "static/media/sundura-4.mp4": "/static/media/sundura-4.94a4bef1f88f6515e7c8.mp4",
     "static/media/github-mark-white.svg": "/static/media/github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/index.html",
-    "main.7d5a5421.css.map": "/static/css/main.7d5a5421.css.map",
-    "main.7ea7cfd0.js.map": "/static/js/main.7ea7cfd0.js.map",
+    "main.b90eeae9.css.map": "/static/css/main.b90eeae9.css.map",
+    "main.1ce0b409.js.map": "/static/js/main.1ce0b409.js.map",
     "787.16283a0a.chunk.js.map": "/static/js/787.16283a0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d5a5421.css",
-    "static/js/main.7ea7cfd0.js"
+    "static/css/main.b90eeae9.css",
+    "static/js/main.1ce0b409.js"
   ]
 }

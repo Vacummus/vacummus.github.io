@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+
+
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  overflow-y: scroll;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(213 219 225);
+  background: #010409;
+  border-bottom: 1px solid #30363d;
 }
 
-.App-link {
-  color: #61dafb;
+.bottomBorder {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #30363d;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header, .header_tabs  {
+  padding-top: 10px;
+}
+
+.header h1 {
+  font-size: 30px;
+  line-height: 0;
+}
+
+.header_tabs {
+  display: flex;
+}
+
+.header_link {
+  padding: 0 5px;
+}
+
+.tab {
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: inherit;
+  background: inherit;
+  padding: 0;
+  border: 0px;
+}
+
+.tab.selected {
+  border-bottom: 1px solid rgb(247, 129, 102);
+  font-weight: bold;
+}
+
+.tab_inner {
+  padding: 10px;
+}
+
+.tab:hover .tab_inner {
+  background-color: rgba(177, 186, 196, 0.12);
+  border-radius: 14px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  height: 20px;
+  padding-right: 5px;
+}
+
+.appBody {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section {
+  max-width: 1000px;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 0 13px;
+  margin: 10px 10px 50px;
+}
+
+.innerSection {
+  color: #e6edf3;
+  padding: 8px 0;
+}
+
+.innerSection_title {
+  margin-top: 0;
+}
+
+.image {
+  width: 30%;
+  pointer-events: none;
+  margin: 10px;
+}
+
+.mediaArea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.videoImageFullSize {
+  width: 600px;
+  padding-bottom: 20px;
+}
+
+.link {
+  color: rgb(47, 129, 247);
+}
+
+.linkSection {
+  font-size: 16px;
 }

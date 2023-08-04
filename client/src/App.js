@@ -32,7 +32,16 @@ function App() {
         </div>
         
         <div className="header_tabs">
-          { tabs.map((tab) => (<Tab key={tab.title} {...tab} isSelected={selectedTab.title === tab.title} onClick={() => setSelectedTab(tab)}></Tab>)) }
+          { tabs.map((tab, i) => {
+              const divider = i !== (tabs.length - 1) ? (<span className="tab_divider">|</span>) : '';
+              return (
+                <div>
+                  <Tab key={tab.title} {...tab} isSelected={selectedTab.title === tab.title} onClick={() => setSelectedTab(tab)}></Tab>
+                  {divider}
+                </div>
+              );
+            })
+          }
         </div>
       </header>
 

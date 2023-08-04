@@ -139,7 +139,7 @@ function SunduraPage() {
       <div className="innerSection">
         <h2 className="bottomBorder innerSection_title">Life of Sundura</h2> 
 
-        <p>Life of Sundura is where a bunch of experiments/prototypes for a game about playing the entire life span of an organism. The goal was to use 2D physics to simulate the life-like movement of organisms.</p>
+        <p>Life of Sundura is a bunch of experiments/prototypes for a game about playing the entire life span of an organism. The goal was to use 2D physics to simulate the life-like movement of organisms.</p>
         
         <div className="mediaArea">
           <video className="videoImageFullSize" autoPlay loop muted playsInline>

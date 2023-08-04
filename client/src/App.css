@@ -74,10 +74,10 @@ body {
 .tab:first-child {
   border-radius: 10px 0 0 0;
 }
+
 .tab:last-child {
   border-radius: 0 10px 0 0;
 }
-
 
 .tab:hover .tab_inner {
   background-color: rgba(177, 186, 196, 0.12);
@@ -87,6 +87,10 @@ body {
 .icon {
   display: flex;
   align-items: center;
+}
+
+.technologyText {
+  color: rgb(125, 133, 144);
 }
 
 .icon img {

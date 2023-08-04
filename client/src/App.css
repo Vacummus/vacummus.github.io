@@ -112,7 +112,7 @@ body {
 }
 
 .videoImageFullSize {
-  width: 600px;
+  width: 700px;
   padding-bottom: 20px;
 }
 
@@ -122,4 +122,48 @@ body {
 
 .linkSection {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 800px) {
+  .videoImageFullSize {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .videoImageFullSize {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .videoImageFullSize {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .videoImageFullSize {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header h1 {
+    font-size: 20px;
+  }
+
+  .videoImageFullSize {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .header h1 {
+    font-size: 16px;
+  }
+  
+  .videoImageFullSize {
+    width: 200px;
+  }
 }

@@ -84,7 +84,7 @@ function ParticlePage() {
         </ul>
 
         <div style={{textAlign: 'center'}}>
-          <img src={particle1} alt="particle1" />
+          <img className="videoImageFullSize" src={particle1} alt="particle1" />
         </div>
 
         <h2 className="bottomBorder">Optimizations</h2>

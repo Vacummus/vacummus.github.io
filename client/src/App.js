@@ -74,6 +74,10 @@ function ParticlePage() {
           <img src={githubLogo} alt="Github Icon Logo" />
           <spna>GitHub Repository</spna>
         </a>
+
+        <p>
+          <strong>Technology:</strong> Unity, C#, DOTS
+        </p>
         
         <p>
           A particle simulation that creates life-like structures.
@@ -119,6 +123,10 @@ function ShaderPage() {
         <h2 className="bottomBorder innerSection_title">Stylized Shader</h2> 
 
         <p>
+          <strong>Technology:</strong> Unity, C#, HLSL
+        </p>
+
+        <p>
           The goal of this project was to render complex scenes and models to look 2D hand drawn. This includes stylizing the lighting (creating flat shadows) and drawing outlines on the edges of 3D models.
         </p>
 
@@ -148,7 +156,11 @@ function SunduraPage() {
       <div className="innerSection">
         <h2 className="bottomBorder innerSection_title">Life of Sundura</h2> 
 
-        <p>Life of Sundura is a bunch of experiments/prototypes for a game about playing the entire life span of an organism. The goal was to use 2D physics to simulate the life-like movement of organisms.</p>
+        <p>
+          <strong>Technology:</strong> Unity, C#, DOTS
+        </p>
+
+        <p>A collection of prototypes for a game about playing the entire life span of an organism. The goal was to use 2D physics to simulate the life-like movement of organisms.</p>
         
         <div className="mediaArea">
           <video className="videoImageFullSize" autoPlay loop muted playsInline>

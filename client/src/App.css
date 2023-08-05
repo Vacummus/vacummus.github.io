@@ -1,5 +1,3 @@
-
-
 body {
   background-color: #0d1117;
   color: #e6edf3;
@@ -13,14 +11,6 @@ body {
   color: rgb(213 219 225);
   background: #010409;
   border-bottom: 1px solid #30363d;
-}
-
-.bottomBorder {
-  padding-bottom: 0.3em;
-  border-bottom: 1px solid #30363d;
-}
-
-.header  {
   padding-top: 20px;
 }
 
@@ -34,6 +24,7 @@ body {
 }
 
 .header_link {
+  font-size: 16px;
   padding: 0 5px;
 }
 
@@ -46,51 +37,8 @@ body {
   align-items: baseline;
 }
 
-.tab {
-  font-size: 14px;
-  cursor: pointer;
-  color: inherit;
-  background: inherit;
-  padding: 0;
-  border: 0px;
-}
-
-.tab.selected {
-  border-bottom: 2px solid rgb(247, 129, 102);
-}
-
-.tab_divider {
+.header_divider {
   color: #666d75;
-}
-
-.tab_inner {
-  padding: 10px;
-}
-
-.tab:first-child {
-  border-radius: 10px 0 0 0;
-}
-
-.tab:last-child {
-  border-radius: 0 10px 0 0;
-}
-
-.tab:hover .tab_inner {
-  background-color: rgba(177, 186, 196, 0.12);
-}
-
-.icon {
-  display: flex;
-  align-items: center;
-}
-
-.technologyText {
-  color: rgb(125, 133, 144);
-}
-
-.icon img {
-  height: 20px;
-  padding-right: 5px;
 }
 
 .appBody {
@@ -99,88 +47,22 @@ body {
   flex-direction: column;
 }
 
-.section {
-  max-width: 1000px;
-  border: 1px solid #30363d;
-  border-radius: 14px;
-  padding: 0 13px;
-  margin: 10px 10px 50px;
-}
-
-.innerSection {
-  color: #e6edf3;
-  padding: 8px 0;
-}
-
-.innerSection_title {
-  margin-top: 0;
-}
-
-.image {
-  width: 30%;
-  pointer-events: none;
-  margin: 10px;
-}
-
-.mediaArea {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.videoImageFullSize {
-  width: 700px;
-  padding-bottom: 20px;
+.grayText {
+  color: rgb(125, 133, 144);
 }
 
 .link {
   color: rgb(47, 129, 247);
 }
 
-.linkSection {
-  font-size: 16px;
-}
-
-@media only screen and (max-width: 800px) {
-  .videoImageFullSize {
-    width: 650px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .videoImageFullSize {
-    width: 550px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .videoImageFullSize {
-    width: 450px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .videoImageFullSize {
-    width: 350px;
-  }
-}
-
 @media only screen and (max-width: 400px) {
   .header h1 {
     font-size: 20px;
-  }
-
-  .videoImageFullSize {
-    width: 250px;
   }
 }
 
 @media only screen and (max-width: 250px) {
   .header h1 {
     font-size: 16px;
-  }
-  
-  .videoImageFullSize {
-    width: 200px;
   }
 }

@@ -1,0 +1,73 @@
+.page {
+  max-width: 1000px;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 8px 14px;
+  margin: 10px 10px 50px;
+}
+
+.page h2 {
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #30363d;
+}
+
+.page_title {
+  margin-top: 0;
+}
+
+.mediaArea {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.media {
+  width: 700px;
+  padding-bottom: 20px;
+}
+
+.gitHubLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.gitHubLink img {
+  height: 20px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-width: 800px) {
+  .media {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .media {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .media {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .media {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .media {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .media {
+    width: 200px;
+  }
+}

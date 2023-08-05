@@ -4,43 +4,6 @@ body {
   overflow-y: scroll;
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: rgb(213 219 225);
-  background: #010409;
-  border-bottom: 1px solid #30363d;
-  padding-top: 20px;
-}
-
-.header_tabs  {
-  margin-top: 20px;
-}
-
-.header h1 {
-  font-size: 30px;
-  line-height: 0;
-}
-
-.header_link {
-  font-size: 16px;
-  padding: 0 5px;
-}
-
-.header_tabs {
-  display: flex;
-  border-top: 1px solid #30363d;
-  border-right: 1px solid #30363d;
-  border-left: 1px solid #30363d;
-  border-radius: 10px 10px 0 0;
-  align-items: baseline;
-}
-
-.header_divider {
-  color: #666d75;
-}
-
 .appBody {
   display: flex;
   align-items: center;
@@ -53,16 +16,4 @@ body {
 
 .link {
   color: rgb(47, 129, 247);
-}
-
-@media only screen and (max-width: 400px) {
-  .header h1 {
-    font-size: 20px;
-  }
-}
-
-@media only screen and (max-width: 250px) {
-  .header h1 {
-    font-size: 16px;
-  }
 }

@@ -1,8 +1,8 @@
-import sundura1 from './../media/sundura-1.mp4';
-import sundura2 from './../media/sundura-2.mp4';
-import sundura3 from './../media/sundura-3.mp4';
-import sundura4 from './../media/sundura-4.mp4';
-import sundura5 from './../media/sundura-5.mp4';
+import sundura1 from './../../media/sundura-1.mp4';
+import sundura2 from './../../media/sundura-2.mp4';
+import sundura3 from './../../media/sundura-3.mp4';
+import sundura4 from './../../media/sundura-4.mp4';
+import sundura5 from './../../media/sundura-5.mp4';
 
 export function SunduraPage() {
   return (

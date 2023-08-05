@@ -1,5 +1,5 @@
-import githubLogo from './../media/github-mark-white.svg';
-import particle1 from './../media/particle-1.gif';
+import githubLogo from './../../media/github-mark-white.svg';
+import particle1 from './../../media/particle-1.gif';
 
 export function ParticlePage() {
   return (
@@ -8,7 +8,7 @@ export function ParticlePage() {
 
       <a className="gitHubLink link" target="_blank" rel="noreferrer" href="https://github.com/VakeyLabs/ParticleLife">
         <img src={githubLogo} alt="Github Icon Logo" />
-        <spna>GitHub Repository</spna>
+        <span>GitHub Repository</span>
       </a>
 
       <p className="grayText">

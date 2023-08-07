@@ -11,7 +11,7 @@ function App() {
     <div className="app">
       <Header />
         
-      <div className="appBody" >
+      <article className="appBody" >
         { 
           pages.map((page) => (
             <div key={page.title} className="page" style={{display: page.selected ? 'block' : 'none'}}>
@@ -19,7 +19,7 @@ function App() {
             </div>
           ))
         }
-      </div>
+      </article>
     </div>
   );
 }

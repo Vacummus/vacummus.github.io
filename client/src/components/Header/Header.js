@@ -16,24 +16,26 @@ export function Header() {
         <a href="http://twitter.com/vakeyrujevic" target="_blank" rel="noreferrer" className="link header_link">@vakeyrujevic</a>
       </div>
       
-      <div className="header_tabs">
-        { 
-          pages.map((page, i) => {
-            const divider = i !== (pages.length - 1) ? (<span className="header_divider">|</span>) : '';
+      <nav>
+        <ul className="header_tabs">
+          { 
+            pages.map((page, i) => {
+              const divider = i !== (pages.length - 1) ? (<span className="header_divider">|</span>) : '';
 
-            return (
-              <div key={page.title}>
-                <Tab 
-                  title={page.title}
-                  isSelected={page.selected} 
-                  onClick={() => setSelectedPageIndex(i)}
-                />
-                {divider}
-              </div>
-            );
-          })
-        }
-      </div>
+              return (
+                <li key={page.title}>
+                  <Tab 
+                    title={page.title}
+                    isSelected={page.selected} 
+                    onClick={() => setSelectedPageIndex(i)}
+                  />
+                  <span>{divider}</span>
+                </li>
+              );
+            })
+          }
+        </ul>
+      </nav>
     </header>
   );
 }

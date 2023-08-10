@@ -11,7 +11,7 @@ export function Header() {
     <header className="header">
       <h1>Vakey Rujevic Portfolio</h1>
       <div>
-        <a href="vakey.rujevic@gmail.com" className="link header_link">vakey.rujevic@gmail.com</a>
+        <a href="mailto: vakey.rujevic@gmail.com" className="link header_link">vakey.rujevic@gmail.com</a>
         |
         <a href="http://twitter.com/vakeyrujevic" target="_blank" rel="noreferrer" className="link header_link">@vakeyrujevic</a>
       </div>

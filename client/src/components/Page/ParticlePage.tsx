@@ -16,7 +16,10 @@ export function ParticlePage() {
       </p>
       
       <p>
-        A particle simulation that creates life-like structures.
+        A particle simulation that creates life-like structures based 
+        on <a className="link" target="_blank" rel="noreferrer" href="https://en.wikipedia.org/wiki/Jeffrey_Ventrella">
+          Jeffrey Ventrella's
+        </a> idea of "Clusters".
         This is where small simple parts are combined to create a larger more complex structure using simple rules of where particles are either attracted or repelled from each other.
       </p>
 

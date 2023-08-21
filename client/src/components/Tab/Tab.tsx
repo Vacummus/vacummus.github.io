@@ -1,6 +1,12 @@
 import './Tab.css';
 
-export function Tab(props) {
+type TTabProps = {
+  isSelected: boolean,
+  title: string,
+  onClick: () => void;
+}
+
+export function Tab(props: TTabProps) {
   const className = 'tab ' + (props.isSelected ? 'selected': '');
 
   return (

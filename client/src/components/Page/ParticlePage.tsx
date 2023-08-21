@@ -1,5 +1,5 @@
-import githubLogo from './../../media/github-mark-white.svg';
-import particle1 from './../../media/particle-1.gif';
+import githubLogo from './../../assets/github-mark-white.svg';
+import particle1 from './../../assets/particle-1.gif';
 
 export function ParticlePage() {
   return (

@@ -1,7 +1,7 @@
-import shader1 from './../../media/shader-1.mp4';
-import shader2 from './../../media/shader-2.mp4';
-import shader3 from './../../media/shader-3.mp4';
-import shader4 from './../../media/shader-4.gif';
+import shader1 from './../../assets/shader-1.mp4';
+import shader2 from './../../assets/shader-2.mp4';
+import shader3 from './../../assets/shader-3.mp4';
+import shader4 from './../../assets/shader-4.gif';
 
 export function ShaderPage() {
   return (

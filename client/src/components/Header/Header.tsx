@@ -1,6 +1,6 @@
 import './Header.css';
 import { useRecoilState, useRecoilValue } from 'recoil';
-import { Tab } from './../Tab/Tab';
+import { Tab } from '../Tab/Tab';
 import { pagesSelector, selectedPageIndexState } from '../../state/pages';
 
 export function Header() {

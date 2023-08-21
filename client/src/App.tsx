@@ -1,11 +1,11 @@
 import './App.css';
 import './components/Page/Page.css';
 import { Header} from './components/Header/Header';
-import { useRecoilValue } from 'recoil';
+import { useAtom } from 'jotai';
 import { pagesSelector } from './state/pages';
 
 function App() {
-  const pages = useRecoilValue(pagesSelector);
+  const [pages] = useAtom(pagesSelector);
 
   return (
     <div className="app">

@@ -1,11 +1,11 @@
 import './Header.css';
-import { useRecoilState, useRecoilValue } from 'recoil';
+import { useAtom } from 'jotai';
 import { Tab } from '../Tab/Tab';
 import { pagesSelector, selectedPageIndexState } from '../../state/pages';
 
 export function Header() {
-  const pages = useRecoilValue(pagesSelector);
-  const [, setSelectedPageIndex] = useRecoilState(selectedPageIndexState);
+  const [pages] = useAtom(pagesSelector);
+  const [, setSelectedPageIndex] = useAtom(selectedPageIndexState);
 
   return (
     <header className="header">

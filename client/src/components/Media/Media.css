@@ -1,0 +1,40 @@
+.media {
+  width: 700px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .media {
+    width: 650px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .media {
+    width: 550px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .media {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .media {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .media {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 250px) {
+  .media {
+    width: 200px;
+  }
+}

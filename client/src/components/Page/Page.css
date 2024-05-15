@@ -3,7 +3,10 @@
   border: 1px solid #30363d;
   border-radius: 14px;
   padding: 8px 14px;
-  margin: 10px 10px 50px;
+  margin: 5px 10px 20px;
+  border-top: 0px;
+  border-bottom: 0;
+  padding-top: 0;
 }
 
 .page h2 {
@@ -11,19 +14,10 @@
   border-bottom: 1px solid #30363d;
 }
 
-.page_title {
-  margin-top: 0;
-}
-
-.mediaArea {
+.page_mediaArea {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.media {
-  width: 700px;
-  padding-bottom: 20px;
 }
 
 .gitHubLink {
@@ -34,40 +28,4 @@
 .gitHubLink img {
   height: 20px;
   padding-right: 5px;
-}
-
-@media only screen and (max-width: 800px) {
-  .media {
-    width: 650px;
-  }
-}
-
-@media only screen and (max-width: 700px) {
-  .media {
-    width: 550px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .media {
-    width: 450px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .media {
-    width: 350px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .media {
-    width: 250px;
-  }
-}
-
-@media only screen and (max-width: 250px) {
-  .media {
-    width: 200px;
-  }
 }

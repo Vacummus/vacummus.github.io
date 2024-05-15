@@ -1,13 +1,27 @@
+import { useAtom } from 'jotai';
+import { selectedPageSelector } from '../../state/pages';
+import { Media } from '../Media/Media';
 import shader1 from './../../assets/shader-1.mp4';
 import shader2 from './../../assets/shader-2.mp4';
 import shader3 from './../../assets/shader-3.mp4';
 import shader4 from './../../assets/shader-4.gif';
+import { useEffect, useState } from 'react';
 
-export function ShaderPage() {
+export const ShaderPage = { title: 'Stylized Shader', component: ShaderPageComponent };
+
+export function ShaderPageComponent() {
+  const [page] = useAtom(selectedPageSelector);
+  const [loaded, setLoaded] = useState(false);
+  const isVisible = page.title === ShaderPage.title;
+
+  useEffect(() => {
+    if (isVisible) {
+      setLoaded(true);
+    }
+  }, [isVisible]);
+  
   return (
     <>
-      <h2 className="page_title">Stylized Shader</h2> 
-
       <p className="grayText">
         <strong>Technology:</strong> Unity, C#, HLSL
       </p>
@@ -21,21 +35,14 @@ export function ShaderPage() {
         is used for edge detection, where I am sampling surrounding pixels from the scene's depth and normal buffers to determine if an outline should be rendered.
       </p>
 
-      <div className="mediaArea">
-        <img className="media" src={shader4} alt="shader4" />
-
-        <video className="media" autoPlay loop muted playsInline>
-          <source src={shader1} type="video/mp4"></source>
-        </video>
-
-        <video className="media" autoPlay loop muted playsInline>
-          <source src={shader3} type="video/mp4"></source>
-        </video>
-
-        <video className="media" autoPlay loop muted playsInline>
-          <source src={shader2} type="video/mp4"></source>
-        </video>
-      </div>
+      { loaded && (
+        <div className="page_mediaArea">
+          <Media src={shader4} alt="shader4" />
+          <Media src={shader1}/>
+          <Media src={shader3}/>
+          <Media src={shader2}/>
+        </div>
+      )}
     </>
   );
 }
